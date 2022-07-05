@@ -1,0 +1,62 @@
+* {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  /* border-style: solid;
+  border-color: #000;
+  border-width: 1px; */
+  /* #001e3c */
+  /* #1d3354 */
+  /* #161822 */
+}
+
+.hub {
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.avatar:after {
+  content: "Deveo";
+  position: relative;
+  display: flex;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.avatar:after {
+  animation: avatar 1s;
+}
+
+@keyframes avatar {
+  0% {left: 50px;}
+  100% {left: 0px;}
+}
+
+.dialog * {
+  display: flex;
+}
+
+.dialog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 150px;
+  padding-left: 10%;
+  background-color: #1d3354;
+}
